@@ -1,0 +1,71 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoGuessEncoding": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  //"editor.bracketPairColorization.enabled": true, (此设置vscode在较新版本本已默认开启)
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "recentlyUsed",
+  "window.dialogStyle": "custom",
+  "debug.showBreakpointsInOverviewRuler": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.iconTheme": "material-icon-theme",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "workbench.editorAssociations": {
+    "*.exe": "default"
+  },
+  "glassit.alpha": 255,
+  "workbench.settings.applyToAllProfiles": [],
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.associations": {
+    "*.cpp": "cpp"
+  },
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  //设置字体
+  "editor.fontFamily": "JetBrainsMono Nerd Font, 'LXGW WenKai Mono', monospace",
+  "editor.fontWeight": "bold",
+  "editor.fontLigatures": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.secondarySideBar.showLabels": false,
+  "editor.fontSize": 14,
+  "editor.detectIndentation": false,
+  "files.eol": "\n",
+  "explorer.confirmDragAndDrop": false
+}
