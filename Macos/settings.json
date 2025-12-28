@@ -1,0 +1,54 @@
+{
+    // 自动保存方式
+    "files.autoSave": "afterDelay",
+    //打开文件时自动猜测字符编码（如UTF8，GBK等）
+    "files.autoGuessEncoding": true,
+    //为工作台中的列表启用平滑滚动效果（如文件管理器和搜索结果列表）
+    "workbench.list.smoothScrolling": true,
+    //让光标在移动时产生平滑的动画效果
+    "editor.cursorSmoothCaretAnimation": "on",
+    //为代码编辑区启用平滑滚动效果
+    "editor.smoothScrolling": true,
+    //设置光标的闪烁动画样式为平滑
+    "editor.cursorBlinking": "smooth",
+    //允许滚轮缩放编辑器的字体大小
+    "editor.mouseWheelZoom": true,
+    //在粘贴代码时自动进行格式化
+    "editor.formatOnPaste": true,
+    //在保存文件时对代码进行格式化
+    "editor.formatOnSave": true,
+    //在输入代码时自动进行格式化
+    "editor.formatOnType": true,
+    //代码是否进行自动换行（是否出现水平滚动条）
+    "editor.wordWrap": "on",
+    //让匹配的括号对应着色并显示连接引导线
+    "editor.guides.bracketPairs": true,
+    //控制代码片段的建议行为
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    //按下Enter键时是否接受代码建议，smart表示只有高亮选中才会接受
+    "editor.acceptSuggestionOnEnter": "smart",
+    //对于建议列表默认选中的是最近使用过的建议
+    "editor.suggestSelection": "recentlyUsed",
+    //在编辑器右侧的概览标尺中显示断点标记
+    "debug.showBreakpointsInOverviewRuler": true,
+    //控制是否在输入“提交字符”（如分号，点号）时自动接受建议
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    //设置vscode的颜色主题
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    //设置文件资源管理器中文件与文件夹的图标主题
+    "workbench.iconTheme": "material-icon-theme",
+    //coderunner的三个设置：代码运行在集成终端；运行代码之前，保存所有已打开并且被修改过的文件；运行代码前，保存当前正在运行的文件；
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    //关闭拓展的推荐设置
+    "extensions.ignoreRecommendations": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    //设置字体
+    "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
+    //设置粗细
+    "editor.fontWeight": "600",
+    //"editor.fontFamily": "Menlo, Monaco, 'LXGW WenKai Mono',monospace",
+    "editor.fontLigatures": true,
+    "git.confirmSync": false,
+}
